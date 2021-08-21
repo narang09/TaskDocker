@@ -7,4 +7,4 @@ COPY ./run.sh /
 COPY ./narang-1.0-SNAPSHOT.jar /
 RUN chmod +x /run.sh
 ENTRYPOINT ["/run.sh"]
-CMD ["true" , 2 , 3 ]
+CMD ["true" , "hello" , "name" ]
